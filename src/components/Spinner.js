@@ -4,7 +4,7 @@ import loader from '../components/loader.gif';
 export class Spinner extends Component {
   render() {
     return (
-      <div className='text-center'>
+      <div className='text-center my-3'>
         <img style={{height:"100px",width:"100px"}}src={loader} alt="loading"></img>
       </div>
     )
